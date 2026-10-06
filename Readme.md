@@ -302,9 +302,9 @@ A recommended repository structure is:
 │
 └── results/
     ├── RLOG_transformed_values_all.txt
-    ├── DESeq2_LRT_condition_by_time_interaction.txt
-    ├── DESeq2_statistics_24h_Treated_vs_Control.txt
-    └── DESeq2_statistics_48h_Treated_vs_Control.txt
+    ├── DESeq2_LRT.txt
+    ├── DESeq2_statistics_24h.txt
+    └── DESeq2_statistics_48h.txt
 ```
 
 ---
@@ -345,7 +345,7 @@ These values are intended for exploratory analyses and visualization.
 
 ---
 
-## `DESeq2_LRT_condition_by_time_interaction.txt`
+## `DESeq2_LRT.txt`
 
 Results of the likelihood ratio test evaluating the `condition × time` interaction.
 
@@ -355,7 +355,7 @@ The adjusted p-value (`padj`) can be used to identify genes for which the transc
 
 ---
 
-## `DESeq2_statistics_24h_Treated_vs_Control.txt`
+## `DESeq2_statistics_24h.txt`
 
 Differential expression results for:
 
@@ -367,7 +367,7 @@ The reported log2 fold changes have been shrunk using `apeglm`.
 
 ---
 
-## `DESeq2_statistics_48h_Treated_vs_Control.txt`
+## `DESeq2_statistics_48h.txt`
 
 Differential expression results for:
 
@@ -392,10 +392,10 @@ The exact package versions used for the analysis should be reported here to faci
 For example:
 
 ```text
-R version: X.X.X
-DESeq2 version: X.X.X
-HTSFilter version: X.X.X
-apeglm version: X.X.X
+Rstudio version: 2026.07.1
+DESeq2 version: 1.42.1
+HTSFilter version: 1.42
+apeglm version: 1.24
 ```
 
 ---
