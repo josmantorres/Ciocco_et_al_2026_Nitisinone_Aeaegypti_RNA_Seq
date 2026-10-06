@@ -1,0 +1,13 @@
+sample	condition	time
+C24-1	Control	24
+C24-2	Control	24
+C24-3	Control	24
+T24-1	Treated	24
+T24-2	Treated	24
+T24-3	Treated	24
+C48-1	Control	48
+C48-2	Control	48
+C48-3	Control	48
+T48-1	Treated	48
+T48-2	Treated	48
+T48-3	Treated	48
