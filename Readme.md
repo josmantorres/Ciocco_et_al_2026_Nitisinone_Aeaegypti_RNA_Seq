@@ -38,48 +38,6 @@ The resulting experimental groups are:
 
 The experimental groups consist of **independent insects**.
 
-The factorial design allows the analysis to distinguish between:
-
-1. The overall effect of nitisinone treatment.
-2. The effect of time after treatment.
-3. Whether the effect of nitisinone differs between 24 h and 48 h.
-
----
-
-## Biological questions and hypotheses
-
-The main biological objective is to determine how nitisinone treatment affects gene expression in *Aedes aegypti* and whether these transcriptional effects change over time.
-
-### Question 1 — Effect of nitisinone treatment
-
-**Does nitisinone alter gene expression relative to the PBS control?**
-
-The corresponding statistical effect is the `condition` term in the factorial DESeq2 model.
-
-**Hypothesis:** Nitisinone treatment alters the expression of a subset of genes relative to control insects.
-
----
-
-### Question 2 — Effect of time
-
-**Does gene expression change between 24 h and 48 h independently of treatment?**
-
-The corresponding statistical effect is the `time` term.
-
-**Hypothesis:** Gene expression changes between the two time points as part of the temporal response following the blood meal and/or experimental treatment.
-
----
-
-### Question 3 — Treatment × time interaction
-
-**Does the transcriptional effect of nitisinone differ between 24 h and 48 h?**
-
-This is evaluated through the `condition × time` interaction.
-
-**Hypothesis:** The magnitude and/or direction of the transcriptional response to nitisinone may change between 24 h and 48 h.
-
-This interaction is particularly important because a treatment effect observed at one time point does not necessarily imply the same response at another time point.
-
 ---
 
 ## Analysis workflow
