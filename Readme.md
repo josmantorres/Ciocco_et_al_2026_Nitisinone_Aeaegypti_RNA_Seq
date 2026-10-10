@@ -40,7 +40,7 @@ The experimental groups consist of **independent insects**.
 
 ---
 
-## Analysis workflow
+## Differential expression analysis workflow
 
 The differential expression analysis consists of the following main steps:
 
