@@ -42,7 +42,7 @@ The experimental groups consist of **independent insects**.
 
 ## Analysis workflow
 
-The analysis consists of the following main steps:
+The differential expression analysis consists of the following main steps:
 
 1. Import raw gene-level read counts.
 2. Import experimental metadata.
@@ -112,7 +112,7 @@ where:
 
 * `condition` represents nitisinone treatment versus PBS control.
 * `time` represents 24 h versus 48 h.
-* `condition:time` represents the interaction between treatment and time.
+* `condition: time` represents the interaction between treatment and time.
 
 This model allows the independent effects of treatment and time to be separated from their interaction.
 
@@ -252,7 +252,8 @@ A recommended repository structure is:
 ├── README.md
 │
 ├── scripts/
-│   └── RNAseq_DESeq2_nitisinone.R
+│   └──Read_processing_mapping_counting_details.txt
+│   └──RNAseq_DESeq2_nitisinone.R
 │
 ├── input/
 │   ├── Counts_all.txt
@@ -283,7 +284,7 @@ The count matrix is used as input for the DESeq2 analysis.
 
 Experimental metadata associated with each RNA-seq sample.
 
-The metadata include at least:
+The metadata includes at least:
 
 * `sample`: sample identifier
 * `condition`: treatment condition (`Control` or `Treated`)
