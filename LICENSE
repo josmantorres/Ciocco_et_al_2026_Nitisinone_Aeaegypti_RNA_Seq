@@ -1,6 +1,6 @@
-MIT License (Para el código R y scripts)
+MIT License
 
-Copyright (c) 2026 [Tu Nombre Completo]
+Copyright (c) 2026 Jose Manuel Latorre Estivalis
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,7 +22,7 @@ SOFTWARE.
 
 --------------------------------------------------------------------------------
 
-Creative Commons Attribution 4.0 International (CC-BY 4.0) (Para los datos)
+Creative Commons Attribution 4.0 International (CC-BY 4.0)
 
 All dataset files, count matrices, experimental designs, and differential expression 
 outputs in this repository are licensed under a Creative Commons Attribution 4.0 
